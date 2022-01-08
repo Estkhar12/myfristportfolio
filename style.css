@@ -1,0 +1,68 @@
+:root{
+    --maincolor:orange;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: tahoma;
+    background-image: url("images/mountain2.png");
+    background-size: cover;
+    text-align: center;
+}
+.about,.skills, .experience{
+    padding: 10px 60px;
+    margin: 10px 150px;
+    border-radius: 20px;
+}
+.about{
+    margin-top: 0;
+}
+.header{
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.header > .logo{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #efff;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,.5);
+    background: var(--maincolor);
+}
+.header .logo img {
+    margin-top: 10px;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: gray 1px 2px 5px 2px;
+    
+}
+.header hr {
+    border-color: var(--maincolor);
+    width: 100px;
+}
+.header h1{
+    color: var(--maincolor);
+}
+.about{
+   background: #efff;
+   box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
+}
+.skills{
+    background: var(--maincolor);
+    color: #efff;
+}
+.experience{
+    background: #efff;
+    color: #000; box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
+    
+}
+.footer{
+    background: var(--maincolor);
+    color: #efff;
+    line-height: 40px;
+}
