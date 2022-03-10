@@ -66,3 +66,6 @@ html, body{
     color: #efff;
     line-height: 40px;
 }
+.footer p{
+    margin-bottom: 0;
+}
