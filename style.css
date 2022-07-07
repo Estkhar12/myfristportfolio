@@ -72,3 +72,7 @@ html, body{
 .footer p{
     margin-bottom: 0;
 }
+
+.carousel-item{
+    width: 50%;
+}
