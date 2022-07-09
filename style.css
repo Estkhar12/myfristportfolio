@@ -7,7 +7,7 @@ html, body{
     padding: 0;
     font-size: 16px;
     font-family: tahoma;
-    background-image: url("images/mountain2.png");
+    background-color: #D6EFED;
     background-size: cover;
     text-align: center;
 }
